@@ -947,6 +947,64 @@ const recordtime = [
   },
 ];
 
+const shiftexchange = [
+  {
+    name: "Sophia Lopez",
+    position: "HR Manager",
+    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+    dateRange: "18/12/2024 09:00 - 18:00",
+    EffectiveDate: "11/12/2024",
+    Schedule: "06:00 - 13:00 (SHR0001) (On Duty)",
+    ExchangeName: "Helen Campbell",
+    ExchangeDate: "12/12/2024",
+    ExchangeSchedule: "18:00 - 24:00 (SHR0001) (On Duty)",
+    Reason: "Urgent business",
+    Remark: "I want to change shifts because I have urgent business.",
+    transactionSteps: [
+      {
+        id: 2,
+        statusname: "Approved",
+        name: "Lucas Green",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-12-18 17:00:00.000000",
+      },
+      {
+        id: 1,
+        statusname: "Approval",
+        name: "Sarah White",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-12-18 12:30:00.000000",
+      },
+      {
+        id: 0,
+        statusname: "Request",
+        name: "Daniel Carter",
+        status: 0,
+        isActive: true,
+        datetimeActive: "2024-12-18 09:00:00.000000",
+      },
+    ],
+
+    ExchangePreview: [
+      {
+        Name: "Isabella James",
+        avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+        OriginalSchedule: "11/12/2024, 06:00 - 13:00 (SHR0001) (On Duty)",
+        NewSchedule: "12/12/2024, 18:00 - 24:00 (SHR0001) (On Duty)",
+      },
+      {
+        Name: "Ashley Harrison",
+        avatar:
+          "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+        OriginalSchedule: "12/12/2024, 18:00 - 24:00 (SHR0001) (On Duty)",
+        NewSchedule: "11/12/2024, 06:00 - 13:00 (SHR0001) (On Duty)",
+      },
+    ],
+  },
+];
+
 module.exports = {
   leavebalance,
   news,
@@ -957,4 +1015,5 @@ module.exports = {
   leaverequest,
   overtime,
   recordtime,
+  shiftexchange,
 };

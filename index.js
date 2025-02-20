@@ -14,6 +14,7 @@ const {
   leaverequest,
   overtime,
   recordtime,
+  shiftexchange,
 } = require("./datajson");
 
 app.get("/lang", (req, res) => {
@@ -91,6 +92,15 @@ app.get("/recordtime", (req, res) => {
     statuscode: 200,
     message: "OK",
     data: recordtime,
+  });
+});
+
+app.get("/shiftexchange", (req, res) => {
+  //   res.status(200).json(quickmenu);
+  res.status(200).json({
+    statuscode: 200,
+    message: "OK",
+    data: shiftexchange,
   });
 });
 
