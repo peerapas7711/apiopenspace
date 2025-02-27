@@ -455,6 +455,169 @@ const notifications = [
   },
 ];
 
+// const leaverequest = [
+//   {
+//     name: "Isabella James",
+//     leaveType: "Sick Leave",
+//     duration: "7 Hours 30 Mins",
+//     dateRange: "15/10/2024 09:00 - 17:30",
+//     reason: "Accident",
+//     profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+//     summary: "There was an accident on the",
+//     file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+//     transactionSteps: [
+//       {
+//         id: 3,
+//         statusname: "Approved",
+//         name: "Ashley Harrison",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-16 14:20:00.000000",
+//       },
+//       {
+//         id: 2,
+//         statusname: "Approval",
+//         name: "Amanda Bella",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-15 10:45:45.123456",
+//       },
+//       {
+//         id: 0,
+//         statusname: "Request",
+//         name: "Isabella James",
+//         status: 0,
+//         isActive: true,
+//         datetimeActive: "2024-10-15 09:00:00.000000",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Lincoln Butler",
+//     leaveType: "Annual Leave",
+//     duration: "2 Days",
+//     dateRange: "13/10/2024 - 14/10/2024",
+//     reason: "Personal Business",
+//     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+//     summary: "",
+//     file: "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf",
+//     transactionSteps: [
+//       {
+//         id: 1,
+//         statusname: "Request",
+//         name: "Lincoln Butler",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-13 08:00:00.000000",
+//       },
+//       {
+//         id: 2,
+//         statusname: "Approval",
+//         name: "Amanda Bella",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-14 09:30:00.000000",
+//       },
+//       {
+//         id: 3,
+//         statusname: "Rejected",
+//         name: "Ashley Harrison",
+//         status: 2,
+//         isActive: true,
+//         datetimeActive: "2024-10-14 15:00:00.000000",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Calvin Floyd",
+//     leaveType: "Business Leave",
+//     duration: "4 Hours",
+//     dateRange: "12/10/2024 Second Half",
+//     reason: "",
+//     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+//     summary: "",
+//     file: "https://www.orimi.com/pdf-test.pdf",
+//     transactionSteps: [
+//       {
+//         id: 1,
+//         statusname: "Request",
+//         name: "Calvin Floyd",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-12 13:00:00.000000",
+//       },
+//       {
+//         id: 2,
+//         statusname: "Rejected",
+//         name: "Amanda Bella",
+//         status: 2,
+//         isActive: true,
+//         datetimeActive: "2024-10-12 14:45:00.000000",
+//       },
+//       {
+//         id: 3,
+//         statusname: "Waiting for Approval 2",
+//         name: "Ashley Harrison",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-13 10:00:00.000000",
+//       },
+//       {
+//         id: 4,
+//         statusname: "Waiting for Approval 3",
+//         name: "Ashley Harrison2",
+//         status: 1,
+//         isActive: true,
+//         datetimeActive: "2024-10-13 10:00:00.000000",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Calvin Floyd2",
+//     leaveType: "Business Leave2",
+//     duration: "4 Hours",
+//     dateRange: "12/10/2024 Second Half",
+//     reason: "",
+//     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+//     summary: "",
+//     file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+//     transactionSteps: [
+//       {
+//         id: 1,
+//         statusname: "Request",
+//         name: "Calvin Floyd2",
+//         status: 0,
+//         isActive: true,
+//         datetimeActive: "2024-10-12 13:00:00.000000",
+//       },
+//       {
+//         id: 2,
+//         statusname: "Waiting for Approval",
+//         name: "Amanda Bella2",
+//         status: 0,
+//         isActive: false,
+//         datetimeActive: "2024-10-12 14:45:00.000000",
+//       },
+//       {
+//         id: 3,
+//         statusname: "Waiting for Approval 3",
+//         name: "Ashley Harrison2",
+//         status: 0,
+//         isActive: false,
+//         datetimeActive: "2024-10-13 10:00:00.000000",
+//       },
+//       {
+//         id: 4,
+//         statusname: "Waiting for Approval 2",
+//         name: "Ashley2",
+//         status: 0,
+//         isActive: false,
+//         datetimeActive: "2024-10-13 10:00:00.000000",
+//       },
+//     ],
+//   },
+// ];
+
 const leaverequest = [
   {
     name: "Isabella James",
@@ -464,7 +627,7 @@ const leaverequest = [
     reason: "Accident",
     profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
     summary: "There was an accident on the",
-    file: "accident_report.pdf",
+    file: "https://www.orimi.com/pdf-test.pdf",
     transactionSteps: [
       {
         id: 3,
@@ -500,7 +663,7 @@ const leaverequest = [
     reason: "Personal Business",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     summary: "",
-    file: "personal_request.docx",
+    file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
     transactionSteps: [
       {
         id: 1,
@@ -512,7 +675,7 @@ const leaverequest = [
       },
       {
         id: 2,
-        statusname: "Waiting for Approval",
+        statusname: "Approval",
         name: "Amanda Bella",
         status: 1,
         isActive: true,
@@ -536,7 +699,7 @@ const leaverequest = [
     reason: "",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     summary: "",
-    file: "travel_itinerary.pdf",
+    file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
     transactionSteps: [
       {
         id: 1,
@@ -548,7 +711,7 @@ const leaverequest = [
       },
       {
         id: 2,
-        statusname: "Waiting for Approval",
+        statusname: "Rejected",
         name: "Amanda Bella",
         status: 2,
         isActive: true,
@@ -556,7 +719,7 @@ const leaverequest = [
       },
       {
         id: 3,
-        statusname: "Waiting for Approval 2",
+        statusname: "Waiting for Approval 3",
         name: "Ashley Harrison",
         status: 1,
         isActive: true,
@@ -564,7 +727,7 @@ const leaverequest = [
       },
       {
         id: 4,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "Ashley Harrison2",
         status: 1,
         isActive: true,
@@ -580,7 +743,7 @@ const leaverequest = [
     reason: "",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     summary: "",
-    file: "travel_itinerary.pdf",
+    file: "https://www.orimi.com/pdf-test.pdf",
     transactionSteps: [
       {
         id: 1,
@@ -600,7 +763,7 @@ const leaverequest = [
       },
       {
         id: 3,
-        statusname: "Waiting for Approval 2",
+        statusname: "Waiting for Approval 3",
         name: "Ashley Harrison2",
         status: 0,
         isActive: false,
@@ -608,7 +771,7 @@ const leaverequest = [
       },
       {
         id: 4,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "Ashley Harrison2",
         status: 0,
         isActive: false,
@@ -634,7 +797,7 @@ const overtime = [
       "Transport (100.00 Unit)",
       "Special (50 Unit)",
     ],
-    file: "accident_report.pdf",
+    file: "https://www.orimi.com/pdf-test.pdf",
     transactionSteps: [
       {
         id: 3,
@@ -673,11 +836,11 @@ const overtime = [
     blog: "Urgent client support",
     remark: "Handled critical issues",
     allowance: ["Meal (According to Policy)"],
-    file: "support_log.pdf",
+    file: "https://www.orimi.com/pdf-test.pdf",
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Sarah Adams",
         status: 0,
         isActive: false,
@@ -704,11 +867,11 @@ const overtime = [
     blog: "System upgrade deployment",
     remark: "Worked on server maintenance",
     allowance: ["Meal (According to Policy)", "Transport (120.00 Unit)"],
-    file: "maintenance_report.pdf",
+    file: "https://www.orimi.com/pdf-test.pdf",
     transactionSteps: [
       {
         id: 3,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "David Wilson",
         status: 0,
         isActive: false,
@@ -716,7 +879,7 @@ const overtime = [
       },
       {
         id: 2,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Olivia Brown",
         status: 0,
         isActive: false,
@@ -745,7 +908,7 @@ const recordtime = [
     transactionSteps: [
       {
         id: 3,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "David Wilson",
         status: 0,
         isActive: false,
@@ -753,7 +916,7 @@ const recordtime = [
       },
       {
         id: 2,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Olivia Brown",
         status: 0,
         isActive: false,
@@ -776,7 +939,7 @@ const recordtime = [
       country: "Thailand",
       effectiveDate: "28/10/2024 09:00 - 14:00",
       purpose: "Support Client UAT",
-      attachment: "On duty.pdf",
+      attachment: "https://www.orimi.com/pdf-test.pdf",
     },
     reference: {
       transactionId: "MCR20241012352",
@@ -800,7 +963,7 @@ const recordtime = [
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "James Miller",
         status: 0,
         isActive: false,
@@ -808,7 +971,7 @@ const recordtime = [
       },
       {
         id: 1,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Sophia Turner",
         status: 0,
         isActive: false,
@@ -831,7 +994,7 @@ const recordtime = [
       country: "USA",
       effectiveDate: "10/11/2024 09:00 - 18:00",
       purpose: "Infrastructure Migration",
-      attachment: "Work Report.pdf",
+      attachment: "https://www.orimi.com/pdf-test.pdf",
     },
     reference: {},
   },
@@ -845,7 +1008,7 @@ const recordtime = [
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "Jessica Lee",
         status: 0,
         isActive: false,
@@ -853,7 +1016,7 @@ const recordtime = [
       },
       {
         id: 1,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Daniel Brown",
         status: 0,
         isActive: false,
@@ -863,7 +1026,7 @@ const recordtime = [
         id: 0,
         statusname: "Request",
         name: "Emily Wilson",
-        status: 0,
+        status: 1,
         isActive: true,
         datetimeActive: "2024-12-05 08:30:00.000000",
       },
@@ -876,7 +1039,7 @@ const recordtime = [
       country: "UK",
       effectiveDate: "05/12/2024 08:30 - 17:30",
       purpose: "Stakeholder Presentation",
-      attachment: "Presentation Slides.pdf",
+      attachment: "https://www.orimi.com/pdf-test.pdf",
     },
     reference: {
       transactionId: "MCR20241205321",
@@ -900,7 +1063,7 @@ const recordtime = [
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "Lucas Green",
         status: 0,
         isActive: false,
@@ -908,7 +1071,7 @@ const recordtime = [
       },
       {
         id: 1,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Sarah White",
         status: 0,
         isActive: false,
@@ -918,7 +1081,7 @@ const recordtime = [
         id: 0,
         statusname: "Request",
         name: "Daniel Carter",
-        status: 0,
+        status: 1,
         isActive: true,
         datetimeActive: "2024-12-18 09:00:00.000000",
       },
@@ -931,7 +1094,7 @@ const recordtime = [
       country: "Australia",
       effectiveDate: "18/12/2024 09:00 - 18:00",
       purpose: "Team Leadership Development",
-      attachment: "Training Material.pdf",
+      attachment: "https://www.orimi.com/pdf-test.pdf",
     },
     reference: {
       transactionId: "MCR20241218789",
@@ -965,16 +1128,16 @@ const shiftexchange = [
         id: 2,
         statusname: "Approved",
         name: "Lucas Green",
-        status: 0,
-        isActive: false,
+        status: 1,
+        isActive: true,
         datetimeActive: "2024-12-18 17:00:00.000000",
       },
       {
         id: 1,
         statusname: "Approval",
         name: "Sarah White",
-        status: 0,
-        isActive: false,
+        status: 1,
+        isActive: true,
         datetimeActive: "2024-12-18 12:30:00.000000",
       },
       {
@@ -1018,7 +1181,7 @@ const shiftexchange = [
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approved",
+        statusname: "Waiting for Approval 2",
         name: "Michael Roberts",
         status: 0,
         isActive: false,
@@ -1026,7 +1189,7 @@ const shiftexchange = [
       },
       {
         id: 1,
-        statusname: "Approval",
+        statusname: "Waiting for Approval",
         name: "Emma Johnson",
         status: 0,
         isActive: false,
@@ -1072,18 +1235,18 @@ const shiftexchange = [
     transactionSteps: [
       {
         id: 2,
-        statusname: "Approved",
+        statusname: "Rejected",
         name: "Sophia Anderson",
-        status: 0,
-        isActive: false,
+        status: 2,
+        isActive: true,
         datetimeActive: "2024-12-22 16:30:00.000000",
       },
       {
         id: 1,
         statusname: "Approval",
         name: "Benjamin Harris",
-        status: 0,
-        isActive: false,
+        status: 1,
+        isActive: true,
         datetimeActive: "2024-12-22 12:00:00.000000",
       },
       {
@@ -1112,6 +1275,250 @@ const shiftexchange = [
   },
 ];
 
+const documents = [
+  {
+    name: "Isabella James",
+    documentsType: "Employment Verification Letter",
+    dateRange: "15/10/2024 09:00 - 17:30",
+    language: "English",
+    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+    summary: "Use as supporting documents for submission",
+
+    transactionSteps: [
+      {
+        id: 3,
+        statusname: "Approved",
+        name: "Ashley Harrison",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-16 14:20:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Approval",
+        name: "Amanda Bella",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-15 10:45:45.123456",
+      },
+      {
+        id: 0,
+        statusname: "Request",
+        name: "Isabella James",
+        status: 0,
+        isActive: true,
+        datetimeActive: "2024-10-15 09:00:00.000000",
+      },
+    ],
+  },
+
+  {
+    name: "Calvin Floyd2",
+    documentsType: "Salary Verification Letter",
+    dateRange: "12/10/2024 Second Half",
+    language: "",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    summary: "Use as supporting documents for submission",
+    transactionSteps: [
+      {
+        id: 1,
+        statusname: "Request",
+        name: "Calvin Floyd2",
+        status: 0,
+        isActive: true,
+        datetimeActive: "2024-10-12 13:00:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Waiting for Approval",
+        name: "Amanda Bella2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-12 14:45:00.000000",
+      },
+      {
+        id: 3,
+        statusname: "Waiting for Approval 3",
+        name: "Ashley Harrison2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+      {
+        id: 4,
+        statusname: "Waiting for Approval 2",
+        name: "Ashley Harrison2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+    ],
+  },
+];
+
+const myrequestleave = [
+  {
+    name: "Isabella James",
+    leaveType: "Sick Leave",
+    duration: "7 Hours 30 Mins",
+    dateRange: "15/10/2024 09:00 - 17:30",
+    reason: "Accident",
+    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+    summary: "There was an accident on the",
+    file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    transactionSteps: [
+      {
+        id: 3,
+        statusname: "Approved",
+        name: "Ashley Harrison",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-16 14:20:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Approval",
+        name: "Amanda Bella",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-15 10:45:45.123456",
+      },
+      {
+        id: 0,
+        statusname: "Request",
+        name: "Isabella James",
+        status: 0,
+        isActive: true,
+        datetimeActive: "2024-10-15 09:00:00.000000",
+      },
+    ],
+  },
+  {
+    name: "Lincoln Butler",
+    leaveType: "Annual Leave",
+    duration: "2 Days",
+    dateRange: "13/10/2024 - 14/10/2024",
+    reason: "Personal Business",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    summary: "",
+    file: "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf",
+    transactionSteps: [
+      {
+        id: 1,
+        statusname: "Request",
+        name: "Lincoln Butler",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-13 08:00:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Approval",
+        name: "Amanda Bella",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-14 09:30:00.000000",
+      },
+      {
+        id: 3,
+        statusname: "Rejected",
+        name: "Ashley Harrison",
+        status: 2,
+        isActive: true,
+        datetimeActive: "2024-10-14 15:00:00.000000",
+      },
+    ],
+  },
+  {
+    name: "Calvin Floyd",
+    leaveType: "Business Leave",
+    duration: "4 Hours",
+    dateRange: "12/10/2024 Second Half",
+    reason: "",
+    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    summary: "",
+    file: "https://www.orimi.com/pdf-test.pdf",
+    transactionSteps: [
+      {
+        id: 1,
+        statusname: "Request",
+        name: "Calvin Floyd",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-12 13:00:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Rejected",
+        name: "Amanda Bella",
+        status: 2,
+        isActive: true,
+        datetimeActive: "2024-10-12 14:45:00.000000",
+      },
+      {
+        id: 3,
+        statusname: "Waiting for Approval 2",
+        name: "Ashley Harrison",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+      {
+        id: 4,
+        statusname: "Waiting for Approval 3",
+        name: "Ashley Harrison2",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+    ],
+  },
+  {
+    name: "Calvin Floyd2",
+    leaveType: "Business Leave2",
+    duration: "4 Hours",
+    dateRange: "12/10/2024 Second Half",
+    reason: "",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    summary: "",
+    file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    transactionSteps: [
+      {
+        id: 1,
+        statusname: "Request",
+        name: "Calvin Floyd2",
+        status: 1,
+        isActive: true,
+        datetimeActive: "2024-10-12 13:00:00.000000",
+      },
+      {
+        id: 2,
+        statusname: "Waiting for Approval",
+        name: "Amanda Bella2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-12 14:45:00.000000",
+      },
+      {
+        id: 3,
+        statusname: "Waiting for Approval 3",
+        name: "Ashley Harrison2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+      {
+        id: 4,
+        statusname: "Waiting for Approval 2",
+        name: "Ashley2",
+        status: 0,
+        isActive: false,
+        datetimeActive: "2024-10-13 10:00:00.000000",
+      },
+    ],
+  },
+];
+
 module.exports = {
   leavebalance,
   news,
@@ -1123,4 +1530,6 @@ module.exports = {
   overtime,
   recordtime,
   shiftexchange,
+  documents,
+  myrequestleave,
 };

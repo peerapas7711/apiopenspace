@@ -15,6 +15,8 @@ const {
   overtime,
   recordtime,
   shiftexchange,
+  documents,
+  myrequestleave,
 } = require("./datajson");
 
 app.get("/lang", (req, res) => {
@@ -43,7 +45,6 @@ app.get("/quickmenu", (req, res) => {
 });
 
 app.get("/managewidget", (req, res) => {
-  //   res.status(200).json(managewidget);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
@@ -60,7 +61,6 @@ app.get("/news/list", (req, res) => {
 });
 
 app.get("/notifications", (req, res) => {
-  //   res.status(200).json(quickmenu);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
@@ -69,7 +69,6 @@ app.get("/notifications", (req, res) => {
 });
 
 app.get("/leaverequest", (req, res) => {
-  //   res.status(200).json(quickmenu);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
@@ -78,7 +77,6 @@ app.get("/leaverequest", (req, res) => {
 });
 
 app.get("/overtime", (req, res) => {
-  //   res.status(200).json(quickmenu);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
@@ -87,7 +85,6 @@ app.get("/overtime", (req, res) => {
 });
 
 app.get("/recordtime", (req, res) => {
-  //   res.status(200).json(quickmenu);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
@@ -96,11 +93,26 @@ app.get("/recordtime", (req, res) => {
 });
 
 app.get("/shiftexchange", (req, res) => {
-  //   res.status(200).json(quickmenu);
   res.status(200).json({
     statuscode: 200,
     message: "OK",
     data: shiftexchange,
+  });
+});
+
+app.get("/documents", (req, res) => {
+  res.status(200).json({
+    statuscode: 200,
+    message: "OK",
+    data: documents,
+  });
+});
+
+app.get("/myrequestleave", (req, res) => {
+  res.status(200).json({
+    statuscode: 200,
+    message: "OK",
+    data: myrequestleave,
   });
 });
 
