@@ -17,6 +17,7 @@ const {
   shiftexchange,
   documents,
   myrequestleave,
+  myrequests,
 } = require("./datajson");
 
 app.get("/lang", (req, res) => {
@@ -113,6 +114,14 @@ app.get("/myrequestleave", (req, res) => {
     statuscode: 200,
     message: "OK",
     data: myrequestleave,
+  });
+});
+
+app.get("/myrequests", (req, res) => {
+  res.status(200).json({
+    statuscode: 200,
+    message: "OK",
+    data: myrequests,
   });
 });
 
