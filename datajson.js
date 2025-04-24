@@ -2255,6 +2255,7 @@ const lang = [
     "request": {"th": "คำขอ", "en": "Request"},
     "notification": {"th": "การแจ้งเตือน", "en": "Notification"},
     "setting": {"th": "ตั้งค่า", "en": "Setting"},
+    "more": {"th": "เพิ่มเติม", "en": "More"},
     "activity_today": {
       "th": "มาดูกิจกรรมของคุณวันนี้กันเถอะ",
       "en": "Let’s take a look at your activity today."
