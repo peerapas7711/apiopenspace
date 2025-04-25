@@ -2321,7 +2321,74 @@ const lang = [
     "you_can_add_up_to_8_menu": {
       "th": "สามารถเพิ่มเมนูได้สูงสุด 8 เมนู",
       "en": "You can add up to 8 menu."
+    },
+    "Inbox": {
+      "th": "กล่องจดหมาย",
+      "en": "Inbox"
+    }, 
+    "Events": {
+      "th": "กิจกรรม",
+      "en": "Events"
+    },
+    "Log In": {
+      "th": "เข้าสู่ระบบ",
+      "en": "Log In"
+    },
+    "Log Out": {
+      "th": "ออกจากระบบ",
+      "en": "Log Out"
+    },
+    "Scan QR Code": {
+      "th": "สแกนคิวอาร์โค้ด",
+      "en": "Scan QR Code"
+    },
+    "Update language": {
+      "th": "อัพเดทภาษา",
+      "en": "Update language"
+    },
+    "Keep Log In": {
+      "th": "บันทึกการเข้าสู่ระบบ",
+      "en": "Keep Log In"
+    },
+    "Stay signed in for next time": {
+      "th": "เข้าสู่ระบบครั้งต่อไปโดยไม่ต้องกรอกรหัส",
+      "en": "Stay signed in for next time."
+    },
+    "Screen Shot": {
+      "th": "บันทึกภาพหน้าจอ",
+      "en": "Screen Shot"
+    },
+    "Enable screen capture": {
+      "th": "เปิดใช้งานการจับภาพหน้าจอ",
+      "en": "Enable screen capture"
+    },
+    "Change Password": {
+      "th": "เปลี่ยนรหัสผ่าน",
+      "en": "Change Password"
+    },
+    "Add Link": {
+      "th": "เพิ่มลิงค์",
+      "en": "Add Link"
+    },
+    "About": {
+      "th": "เกี่ยวกับแอป",
+      "en": "About"
+    },
+    "Thai": {
+      "th": "ไทย",
+      "en": "Thai"
+    },
+    "English": {
+      "th": "อังกฤษ",
+      "en": "English"
+    },
+    "Burmese": {
+      "th": "พม่า",
+      "en": "Burmese"
     }
+
+   
+
   }
 ]
 // !!!!!!!!
