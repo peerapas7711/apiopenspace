@@ -1,6 +1,9 @@
 // datajson.js
 
 
+
+
+
 const quickmenu = ["M00", "M01", "M02", "M05", "M06"];
 
 const leavebalance = [

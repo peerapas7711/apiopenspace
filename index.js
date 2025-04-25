@@ -13,7 +13,7 @@ const {
   news,
   quickmenu,
   managewidget,
- 
+  // lang5555,
   notifications,
   leaverequest,
   overtime,
@@ -48,16 +48,16 @@ app.get("/lang", (req, res) => {
   res.status(200).json({
     statuscode: 200,
     message: "OK",
-    data: langData,
+    data: [langData],
   });
 });
 
-// app.get("/lang", (req, res) => {
+// app.get("/lang5555", (req, res) => {
 //   //   res.status(200).json(quickmenu);
 //   res.status(200).json({
 //     statuscode: 200,
 //     message: "OK",
-//     data: lang,
+//     data: lang5555,
 //   });
 // });
 
