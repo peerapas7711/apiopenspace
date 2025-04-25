@@ -1,6 +1,10 @@
 const express = require("express");
+const xlsx = require('xlsx');
+const path = require('path');
 const app = express();
 const PORT = 8080;
+
+
 
 app.use(express.json());
 
@@ -9,7 +13,7 @@ const {
   news,
   quickmenu,
   managewidget,
-  lang,
+ 
   notifications,
   leaverequest,
   overtime,
@@ -20,14 +24,42 @@ const {
   myrequests,
 } = require("./datajson");
 
+
+function readLangExcel() {
+  const workbook = xlsx.readFile(path.join(__dirname, 'translated_lang.xlsx'));
+  const sheet = workbook.Sheets[workbook.SheetNames[0]];
+  const rows = xlsx.utils.sheet_to_json(sheet);
+
+  const lang = {};
+  rows.forEach(row => {
+    if (row.key && row.th && row.en) {
+      lang[row.key] = {
+        th: row.th,
+        en: row.en,
+      };
+    }
+  });
+
+  return lang;
+}
+
 app.get("/lang", (req, res) => {
-  //   res.status(200).json(quickmenu);
+  const langData = readLangExcel(); // เรียกใช้ function
   res.status(200).json({
     statuscode: 200,
     message: "OK",
-    data: lang,
+    data: langData,
   });
 });
+
+// app.get("/lang", (req, res) => {
+//   //   res.status(200).json(quickmenu);
+//   res.status(200).json({
+//     statuscode: 200,
+//     message: "OK",
+//     data: lang,
+//   });
+// });
 
 app.get("/leave", (req, res) => {
   res.status(200).json({
