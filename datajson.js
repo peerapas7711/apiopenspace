@@ -1,327 +1,5 @@
 // datajson.js
 
-// const lang = [
-//   {
-//     good_morning: {
-//       th: "สวัสดียามเช้า",
-//       en: "Good Morning",
-//     },
-//   },
-//   {
-//     good_afternoon: {
-//       th: "สวัสดียามบ่าย",
-//       en: "Good Afternoon",
-//     },
-//   },
-//   {
-//     good_evening: {
-//       th: "สวัสดียามเย็น",
-//       en: "Good Evening",
-//     },
-//   },
-//   {
-//     home: {
-//       th: "หน้าหลัก",
-//       en: "Home",
-//     },
-//   },
-//   {
-//     calendar: {
-//       th: "ปฏิทิน",
-//       en: "Calendar",
-//     },
-//   },
-//   {
-//     request: {
-//       th: "คำขอ",
-//       en: "Request",
-//     },
-//   },
-//   {
-//     notification: {
-//       th: "การแจ้งเตือน",
-//       en: "Notification",
-//     },
-//   },
-//   {
-//     setting: {
-//       th: "ตั้งค่า",
-//       en: "Setting",
-//     },
-//   },
-
-//   {
-//     activity_today: {
-//       th: "มาดูกิจกรรมของคุณวันนี้กันเถอะ",
-//       en: "Let’s take a look at your activity today.",
-//     },
-//   },
-//   {
-//     quick_menu: {
-//       th: "เมนูลัด",
-//       en: "Quick Menu",
-//     },
-//   },
-//   {
-//     menu: {
-//       th: "เมนู",
-//       en: "Menu",
-//     },
-//   },
-//   {
-//     my_day: {
-//       th: "วันของฉัน",
-//       en: "My Day",
-//     },
-//   },
-//   {
-//     today: {
-//       th: "วันนี้",
-//       en: "Today",
-//     },
-//   },
-//   {
-//     yesterday: {
-//       th: "เมื่อวาน",
-//       en: "Yesterday",
-//     },
-//   },
-//   {
-//     tomorrow: {
-//       th: "พรุ่งนี้",
-//       en: "Tomorrow",
-//     },
-//   },
-//   {
-//     my_tasks: {
-//       th: "งานของฉัน",
-//       en: "My Tasks",
-//     },
-//   },
-//   {
-//     detail: {
-//       th: "รายละเอียด",
-//       en: "Detail",
-//     },
-//   },
-//   {
-//     due_date: {
-//       th: "วันครบกำหนด",
-//       en: "Due Date",
-//     },
-//   },
-//   {
-//     high: {
-//       th: "สูง",
-//       en: "High",
-//     },
-//   },
-//   {
-//     medium: {
-//       th: "ปานกลาง",
-//       en: "Medium",
-//     },
-//   },
-//   {
-//     low: {
-//       th: "ต่ำ",
-//       en: "Low",
-//     },
-//   },
-//   {
-//     new_todo_item: {
-//       th: "เพิ่มสิ่งที่ต้องทำ",
-//       en: "New To Do List",
-//     },
-//   },
-//   {
-//     todo_list: {
-//       th: "รายการที่ต้องทำ",
-//       en: "To Do List",
-//     },
-//   },
-//   {
-//     sort_by: {
-//       th: "เรียงตาม",
-//       en: "Sort by",
-//     },
-//   },
-//   {
-//     priority: {
-//       th: "ลำดับความสำคัญ",
-//       en: "Priority",
-//     },
-//   },
-//   {
-//     link_to_okr: {
-//       th: "คุณต้องการเชื่อมโยงกับ OKR ของคุณหรือไม่?",
-//       en: "Do you want to link to your OKR?",
-//     },
-//   },
-//   {
-//     objective: {
-//       th: "วัตถุประสงค์",
-//       en: "Objective",
-//     },
-//   },
-//   {
-//     okr: {
-//       th: "OKR",
-//       en: "OKR",
-//     },
-//   },
-//   {
-//     all_completed_items: {
-//       th: "รายการที่เสร็จสมบูรณ์ทั้งหมด",
-//       en: "All Completed Items",
-//     },
-//   },
-//   {
-//     completed_items: {
-//       th: "รายการที่เสร็จสมบูรณ์",
-//       en: "Completed Items",
-//     },
-//   },
-//   {
-//     add_items: {
-//       th: "เพิ่มรายการ",
-//       en: "Add items",
-//     },
-//   },
-//   {
-//     title: {
-//       th: "หัวข้อ",
-//       en: "Title",
-//     },
-//   },
-//   {
-//     add_your_title: {
-//       th: "เพิ่มหัวข้อของคุณ",
-//       en: "Add your title",
-//     },
-//   },
-//   {
-//     description: {
-//       th: "คำอธิบาย",
-//       en: "Description",
-//     },
-//   },
-//   {
-//     add_your_description: {
-//       th: "เพิ่มคำอธิบายของคุณ",
-//       en: "Add your description",
-//     },
-//   },
-//   {
-//     delete: {
-//       th: "ลบ",
-//       en: "Delete",
-//     },
-//   },
-//   {
-//     leave_balance: {
-//       th: "ยอดคงเหลือวันลา",
-//       en: "Leave Balance",
-//     },
-//   },
-//   {
-//     d: {
-//       th: "วัน",
-//       en: "d",
-//     },
-//   },
-//   {
-//     h: {
-//       th: "ชม.",
-//       en: "h",
-//     },
-//   },
-//   {
-//     m: {
-//       th: "น.",
-//       en: "m",
-//     },
-//   },
-//   {
-//     my_team_overview: {
-//       th: "ภาพรวมทีมของฉัน",
-//       en: "My Team Overview",
-//     },
-//   },
-//   {
-//     present: {
-//       th: "ปัจจุบัน",
-//       en: "Present",
-//     },
-//   },
-//   {
-//     no_clock_info: {
-//       th: "ไม่มีข้อมูลนาฬิกา",
-//       en: "No Clock Info",
-//     },
-//   },
-//   {
-//     view_all: {
-//       th: "ดูทั้งหมด",
-//       en: "View All",
-//     },
-//   },
-//   {
-//     manage_widget: {
-//       th: "จัดการวิดเจ็ต",
-//       en: "Manage Widget",
-//     },
-//   },
-//   {
-//     in: {
-//       th: "เข้า",
-//       en: "In",
-//     },
-//   },
-//   {
-//     out: {
-//       th: "ออก",
-//       en: "Out",
-//     },
-//   },
-//   {
-//     done: {
-//       th: "เสร็จสิ้น",
-//       en: "Done",
-//     },
-//   },
-//   {
-//     save: {
-//       th: "บันทึก",
-//       en: "Save",
-//     },
-//   },
-//   {
-//     cancel: {
-//       th: "ยกเลิก",
-//       en: "Cancel",
-//     },
-//   },
-//   {
-//     of: {
-//       th: "ของ",
-//       en: "of",
-//     },
-//   },
-//   {
-//     there_must_be_at_least_1_menu: {
-//       th: "ต้องมีอย่างน้อย 1 เมนู",
-//       en: "There must be at least 1 menu.",
-//     },
-//   },
-//   {
-//     you_can_add_up_to_8_menu: {
-//       th: "สามารถเพิ่มเมนูได้สูงสุด 8 เมนู",
-//       en: "You can add up to 8 menu.",
-//     },
-//   },
-// ];
-
 
 
 // !!!!!!!!
@@ -428,8 +106,7 @@ const lang = [
       "th": "ปฏิทินของฉัน",
       "en": "My Calendar"
     },
-  
-    
+
     "My Tasks": {
       "th": "สิ่งที่ต้องทำ",
       "en": "My Tasks"
@@ -511,7 +188,7 @@ const lang = [
       "en": "Time Request"
     },
     "Leave": {
-      "th": "เป็นลา",
+      "th": "การลา",
       "en": "Leave"
     },
     "Record Time": {
@@ -529,6 +206,10 @@ const lang = [
     "Claim Request": {
       "th": "คำขอเบิกค่าใช้จ่าย",
       "en": "Claim Request"
+    },
+    "Claim": {
+      "th": "เบิกค่าใช้จ่าย",
+      "en": "Claim"
     },
     "Welfare": {
       "th": "สวัสดิการ",
@@ -2119,9 +1800,9 @@ const lang = [
       "th": "โอที6",
       "en": "OT6"
     },
-    "OT Allowance": {
+    "Overtime Allowance": {
       "th": "ค่ากะโอที",
-      "en": "OT Allowance"
+      "en": "Overtime Allowance"
     },
     "Food Allowance": {
       "th": "ค่าอาหารโอที",
@@ -2167,11 +1848,11 @@ const lang = [
       "th": "วันหยุดรประจำปี",
       "en": "Public Holiday"
     },
-    "Annual holidays: If a compensatory leave request has already been made, duplicate requests are not allowed": {
+    "Annual holidays:": {
       "th": "วันหยุดประจำปี: หากมีการขอลาหยุดทดแทนแล้ว จะไม่สามารถขอลาได้ซ้ำ",
       "en": "Annual holidays: If a compensatory leave request has already been made, duplicate requests are not allowed."
     },
-    "Must be used within 60 days from the date of the original holiday": {
+    "Must be used": {
       "th": "ต้องใช้ภายใน 60 วันนับจากวันที่วันหยุดที่เกิดขึ้นแล้ว",
       "en": "Must be used within 60 days from the date of the original holiday."
     },
@@ -2366,6 +2047,10 @@ const lang = [
       "th": "เปลี่ยนรหัสผ่าน",
       "en": "Change Password"
     },
+    "Change Language": {
+      "th": "เปลี่ยนภาษา",
+      "en": "Change Language"
+    },
     "Add Link": {
       "th": "เพิ่มลิงค์",
       "en": "Add Link"
@@ -2385,6 +2070,38 @@ const lang = [
     "Burmese": {
       "th": "พม่า",
       "en": "Burmese"
+    },
+    "Choose your company": {
+      "th": "เลือกบริษัทของคุณ",
+      "en": "Choose your company"
+    },
+    "A system error occurred": {
+      "th": "เกิดข้อผิดพลาดของระบบ",
+      "en": "A system error occurred."
+    },
+    "Download": {
+      "th": "ดาวน์โหลด",
+      "en": "Download"
+    },
+    "No profile data": {
+      "th": "ไม่มีข้อมูลโปรไฟล์",
+      "en": "No profile data"
+    },
+    "Photos": {
+      "th": "ภาพถ่าย",
+      "en": "Photos"
+    },
+    "Camera": {
+      "th": "กล้อง",
+      "en": "Camera"
+    },
+    "File": {
+      "th": "ไฟล์",
+      "en": "File"
+    },
+    "Apply": {
+      "th": "ใช้",
+      "en": "Apply"
     }
 
    
