@@ -22,7 +22,7 @@ const {
   documents,
   myrequestleave,
   myrequests,
-  banners,
+  
 } = require("./datajson");
 
 
@@ -189,8 +189,31 @@ app.get("/baseversion", (req, res) => {
   });
 });
 
+
+
 app.get("/banners", (req, res) => {
- 
+  const protocol = req.protocol; // http หรือ https
+  const host = req.headers.host; // localhost:8080 หรือ ip:8080
+
+  const baseUrl = `${protocol}://${host}`;
+
+  const banners = [
+    {
+      title: "Promotion 1",
+      image: `${baseUrl}/static/promotion1.jpg`,
+      url: `${baseUrl}/static/promotion1.jpg`,
+    },
+    {
+      title: "Promotion 2",
+      image: `${baseUrl}/static/promotion2.jpg`,
+      url: `${baseUrl}/static/promotion2.jpg`,
+    },
+    {
+      title: "Promotion 3",
+      image: `${baseUrl}/static/promotion3.jpg`,
+      url: `${baseUrl}/static/promotion3.jpg`,
+    },
+  ];
 
   res.status(200).json({
     statuscode: 200,

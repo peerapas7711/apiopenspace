@@ -2,24 +2,7 @@
 
 
 
-  const banners = [
-    {
-      title: "Promotion 1",
-      image: "http://localhost:8080/static/promotion1.jpg",
-      url: "http://localhost:8080/static/promotion1.jpg",
-    },
-    {
-      title: "Promotion 2",
-      image: "http://localhost:8080/static/promotion2.jpg",
-      url: "http://localhost:8080/static/promotion2.jpg",
-    },
-    {
-      title: "Promotion 3",
-      image: "http://localhost:8080/static/promotion3.jpg",
-      url: "http://localhost:8080/static/promotion3.jpg",
-    },
-  ];
-
+ 
  
 
 
@@ -1187,6 +1170,5 @@ module.exports = {
   documents,
   myrequestleave,
   myrequests,
-  banners,
 };
 
