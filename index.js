@@ -199,19 +199,34 @@ app.get("/banners", (req, res) => {
 
   const banners = [
     {
-      title: "Promotion 1",
-      image: `${baseUrl}/static/promotion1.jpg`,
-      url: `${baseUrl}/static/promotion1.jpg`,
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/app-banner-tiger-HR-Openspace-04.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
     },
     {
-      title: "Promotion 2",
-      image: `${baseUrl}/static/promotion2.jpg`,
-      url: `${baseUrl}/static/promotion2.jpg`,
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/Banner-ERP-app-01-1.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
     },
     {
-      title: "Promotion 3",
-      image: `${baseUrl}/static/promotion3.jpg`,
-      url: `${baseUrl}/static/promotion3.jpg`,
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/banner-KMS-app.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
+    },
+    {
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/CoverApp-Customer-Service-Overtime.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
+    },
+    {
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/haas-webapp-banner.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
+    },
+    {
+      title: "Tigersoft 1998",
+      image: `${baseUrl}/static/Web-Tigersoft-HR-Software-Banner-Conicle-crop-1.webp`,
+      url: `https://tigersoft.co.th/banner-app/`,
     },
   ];
 
